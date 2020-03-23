@@ -1,0 +1,103 @@
+
+
+
+
+h5{color: grey;}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+}
+#react-logo {
+  color: #00d8ff;
+}
+#imdb-logo {
+  color: #f5de50;
+}
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+.icon{
+ margin-left: 89%;
+ margin-top: -23px;
+
+}
+
+.searchinp{
+  border-bottom: 2px solid grey !important;
+}
+
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext{
+
+  flex: 0 1 auto !important;
+  width: 57% !important;
+}
+.form-control{color: #fff !important;}
+input:focus::-webkit-input-placeholder {
+  color: #fff !important;
+}
+.bg-grey {
+  background-color: #c3c1c1!important;
+}
+
+
+.thumbnail{
+width: 350px !important;
+height: auto !important;
+
+
+}
+.desc
+{
+    max-height: 45px;
+    overflow: hidden;
+    position: relative;
+}
+.card-img-top {
+  height: 325px !important;
+}
+.desc:after
+{
+    display: block;
+    position: absolute;
+    content: "…";
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 768px){
+  .icon{
+      margin-left: 0% !important;
+     
+      margin-top: 10px !important;
+      padding-left: 55px !important;
+
+  }
+  .thumbnail{
+    width: 100% !important;
+    height: auto !important;
+    
+    
+    }
+}
+@media (min-width: 768px){
+.col-md-2 {
+    flex: 0 0 19.666667%;
+    max-width: 66.666667%;
+}
+}
+
+
+
+
+
